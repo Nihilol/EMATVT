@@ -1,6 +1,50 @@
 var APP_DATA = {
   "scenes": [
     {
+      "id": "6-hallway",
+      "name": "Hallway",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1680,
+      "initialViewParameters": {
+        "yaw": 3.0185578701712483,
+        "pitch": 0.08098157447700771,
+        "fov": 1.3378744097411812
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.9823214557685755,
+          "pitch": 0.043969580114662676,
+          "rotation": 0,
+          "target": "5-gowning"
+        },
+        {
+          "yaw": -0.05627497897742195,
+          "pitch": 0.08975224955572969,
+          "rotation": 0,
+          "target": "7-sample-preparation-room"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
       "id": "0-after-gowning",
       "name": "After Gowning",
       "levels": [
@@ -333,50 +377,6 @@ var APP_DATA = {
           "text": "The equipment has an online booking platform, which is displayed to let users know which systems are available at what times."
         }
       ]
-    },
-    {
-      "id": "6-hallway",
-      "name": "Hallway",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1680,
-      "initialViewParameters": {
-        "yaw": 3.0185578701712483,
-        "pitch": 0.08098157447700771,
-        "fov": 1.3378744097411812
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.9823214557685755,
-          "pitch": 0.043969580114662676,
-          "rotation": 0,
-          "target": "5-gowning"
-        },
-        {
-          "yaw": -0.05627497897742195,
-          "pitch": 0.08975224955572969,
-          "rotation": 0,
-          "target": "7-sample-preparation-room"
-        }
-      ],
-      "infoHotspots": []
     },
     {
       "id": "7-sample-preparation-room",
